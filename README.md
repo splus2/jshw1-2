@@ -1,1 +1,1 @@
-Home assignment #1-2 for javascript
+Home assignment #1-2 for javascript v1.2 - fixed 
