@@ -20,7 +20,7 @@ switch (choice) {
                 var result = 1; 
                 return result;        
             } 
-            
+            var result =1;
             for (var i = 0; i < exp; i++) {
             result = result * base;
             }   
