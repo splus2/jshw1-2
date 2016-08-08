@@ -11,11 +11,16 @@ switch (choice) {
 
         //the constructon of the power
         function power(base, exp) {
-           if ((base == 0) || (exp == 0)) {
-                var result = 0;         //if the number is 0
-            } else {
-                var result = 1;
+            if (base == 0) {
+               var result = 0; 
+               return result;  
             }
+
+           if ( exp == 0) {
+                var result = 1; 
+                return result;        
+            } 
+            
             for (var i = 0; i < exp; i++) {
             result = result * base;
             }   
